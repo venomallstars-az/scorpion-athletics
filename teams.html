@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Teams | Scorpion Athletics</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+/* TEAM PAGE */
+
+.team-hero {
+
+    padding: 110px 25px 80px;
+
+    text-align: center;
+
+    background:
+    radial-gradient(
+        circle at center,
+        #45101c,
+        #090909 65%
+    );
+
+}
+
+.team-hero h1 {
+
+    font-size:
+    clamp(50px, 8vw, 90px);
+
+    line-height: .9;
+
+    margin: 20px 0;
+
+}
+
+.team-hero h1 span {
+
+    color: #d7193f;
+
+}
+
+.team-hero p {
+
+    max-width: 650px;
+
+    margin: auto;
+
+    color: #aaa;
+
+    font-size: 17px;
+
+}
+
+
+/* TEAM CATEGORIES */
+
+.team-category {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 75px 25px;
+
+}
+
+.category-header {
+
+    border-bottom:
+    1px solid #292929;
+
+    padding-bottom: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+.category-header h2 {
+
+    margin: 5px 0;
+
+}
+
+.category-header p {
+
+    color: #888;
+
+}
+
+
+/* TEAM CARDS */
+
+.team-grid {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(250px,1fr));
+
+    gap: 18px;
+
+}
+
+
+.team-card {
+
+    background: #131313;
+
+    border: 1px solid #292929;
+
+    padding: 30px;
+
+    position: relative;
+
+    min-height: 190px;
+
+    transition: .2s;
+
+}
+
+
+.team-card:hover {
+
+    border-color: #d7193f;
+
+    transform: translateY(-5px);
+
+}
+
+
+.team-level {
+
+    color: #d7193f;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+}
+
+
+.team-name {
+
+    font-size: 29px;
+
+    font-weight: 900;
+
+    margin-top: 7px;
+
+}
+
+
+.team-division {
+
+    color: #aaa;
+
+    margin-top: 8px;
+
+    font-size: 14px;
+
+}
+
+
+.team-description {
+
+    color: #777;
+
+    margin-top: 15px;
+
+    font-size: 13px;
+
+}
+
+
+.team-number {
+
+    position: absolute;
+
+    right: 18px;
+
+    top: 14px;
+
+    font-size: 35px;
+
+    font-weight: 900;
+
+    color: #252525;
+
+}
+
+
+/* FEATURED LEVEL 6 */
+
+.level-six {
+
+    border-color: #50101e;
+
+    background:
+    linear-gradient(
+        135deg,
+        #171717,
+        #10070a
+    );
+
+}
+
+
+.level-six .team-name {
+
+    color: #fff;
+
+}
+
+
+/* TRYOUT BANNER */
+
+.team-banner {
+
+    background: #d7193f;
+
+    text-align: center;
+
+    padding: 60px 25px;
+
+}
+
+
+.team-banner h2 {
+
+    font-size: 40px;
+
+}
+
+
+.team-banner p {
+
+    margin: 10px auto 25px;
+
+    max-width: 600px;
+
+}
+
+
+.team-banner .button {
+
+    background: #080808;
+
+}
+
+
+/* MOBILE */
+
+@media(max-width:600px) {
+
+    .team-card {
+
+        min-height: auto;
+
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<header>
+
+<div class="navbar">
+
+
+<a href="index.html" class="logo">
+
+<div class="logo-mark">
+SA
+</div>
+
+<div>
+
+<strong>SCORPION</strong>
+
+<span>ATHLETICS</span>
+
+</div>
+
+</a>
+
+
+<nav>
+
+<a href="index.html">
+Home
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="teams.html"
+class="active">
+Teams
+</a>
+
+<a href="calendar.html">
+Calendar
+</a>
+
+<a href="competitions.html">
+Competitions
+</a>
+
+<a href="camps.html">
+Camps
+</a>
+
+<a href="classes.html">
+Classes
+</a>
+
+<a href="rules.html">
+Gym Rules
+</a>
+
+<a href="gallery.html">
+Gallery
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+<a href="tryouts.html"
+class="tryout-button">
+
+TRYOUTS
+
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+
+<!-- HERO -->
+
+<section class="team-hero">
+
+<div class="section-label">
+
+2026–27 SEASON
+
+</div>
+
+<h1>
+
+MEET THE<br>
+
+<span>SCORPIONS.</span>
+
+</h1>
+
+<p>
+
+17 teams. One family.
+
+From our youngest athletes in
+Tiny Novice to our Senior Level 6
+teams, every Scorpion has a place
+on the mat.
+
+</p>
+
+</section>
+
+
+
+<!-- NOVICE -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+NOVICE PROGRAM
+</div>
+
+<h2>
+Our Youngest Scorpions
+</h2>
+
+<p>
+A fun introduction to competitive
+all-star cheer.
+</p>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+01
+</span>
+
+<div class="team-level">
+Tiny Novice
+</div>
+
+<div class="team-name">
+Sweethearts
+</div>
+
+<div class="team-division">
+Tiny · Novice
+</div>
+
+<p class="team-description">
+Our youngest competitive athletes
+begin building confidence, teamwork,
+and foundational cheer skills.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- PREP -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+PREP PROGRAM
+</div>
+
+<h2>
+Building The Foundation
+</h2>
+
+<p>
+Our Prep teams bridge the gap between
+recreational cheer and competitive
+All-Star cheer.
+</p>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+02
+</span>
+
+<div class="team-level">
+Mini Prep
+</div>
+
+<div class="team-name">
+Stingers
+</div>
+
+<div class="team-division">
+Mini · Prep
+</div>
+
+<p class="team-description">
+Young athletes developing their
+stunting, tumbling, jumps, and
+performance skills.
+</p>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+03
+</span>
+
+<div class="team-level">
+Youth Prep
+</div>
+
+<div class="team-name">
+Sparks
+</div>
+
+<div class="team-division">
+Youth · Prep
+</div>
+
+<p class="team-description">
+Athletes building confidence and
+competitive experience while
+strengthening their foundations.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LEVEL 1 -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+LEVEL 1 ELITE
+</div>
+
+<h2>
+Starting Strong
+</h2>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+04
+</span>
+
+<div class="team-level">
+Level 1 · Mini
+</div>
+
+<div class="team-name">
+Crimson
+</div>
+
+<div class="team-division">
+Mini · Level 1
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+05
+</span>
+
+<div class="team-level">
+Level 1 · Youth
+</div>
+
+<div class="team-name">
+Ember
+</div>
+
+<div class="team-division">
+Youth · Level 1
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+06
+</span>
+
+<div class="team-level">
+Level 1 · Junior
+</div>
+
+<div class="team-name">
+Inferno
+</div>
+
+<div class="team-division">
+Junior · Level 1
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LEVEL 2 -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+LEVEL 2
+</div>
+
+<h2>
+Strike Harder.
+</h2>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+07
+</span>
+
+<div class="team-level">
+Level 2 · Mini
+</div>
+
+<div class="team-name">
+Sting
+</div>
+
+<div class="team-division">
+Mini · Level 2
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+08
+</span>
+
+<div class="team-level">
+Level 2 · Youth
+</div>
+
+<div class="team-name">
+Strike
+</div>
+
+<div class="team-division">
+Youth · Level 2
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+09
+</span>
+
+<div class="team-level">
+Level 2 · Junior
+</div>
+
+<div class="team-name">
+Fury
+</div>
+
+<div class="team-division">
+Junior · Level 2
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LEVEL 3 -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+LEVEL 3
+</div>
+
+<h2>
+Raising The Bar.
+</h2>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+10
+</span>
+
+<div class="team-level">
+Level 3 · Junior
+</div>
+
+<div class="team-name">
+Reign
+</div>
+
+<div class="team-division">
+Junior · Level 3
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+11
+</span>
+
+<div class="team-level">
+Level 3 · Senior
+</div>
+
+<div class="team-name">
+Vengeance
+</div>
+
+<div class="team-division">
+Senior · Level 3
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LEVEL 4 -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+LEVEL 4
+</div>
+
+<h2>
+Bring The Havoc.
+</h2>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+12
+</span>
+
+<div class="team-level">
+Level 4 · Junior
+</div>
+
+<div class="team-name">
+Havoc
+</div>
+
+<div class="team-division">
+Junior · Level 4
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+13
+</span>
+
+<div class="team-level">
+Level 4 · Senior
+</div>
+
+<div class="team-name">
+Riot
+</div>
+
+<div class="team-division">
+Senior · Level 4
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LEVEL 5 -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+LEVEL 5
+</div>
+
+<h2>
+Elite Competition.
+</h2>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card">
+
+<span class="team-number">
+14
+</span>
+
+<div class="team-level">
+Level 5 · Junior
+</div>
+
+<div class="team-name">
+Toxic
+</div>
+
+<div class="team-division">
+Junior · Level 5
+</div>
+
+</div>
+
+
+<div class="team-card">
+
+<span class="team-number">
+15
+</span>
+
+<div class="team-level">
+Level 5 · Senior
+</div>
+
+<div class="team-name">
+Poison
+</div>
+
+<div class="team-division">
+Senior · Level 5
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LEVEL 6 -->
+
+<section class="team-category">
+
+<div class="category-header">
+
+<div class="section-label">
+LEVEL 6
+</div>
+
+<h2>
+The Top Of The Pack.
+</h2>
+
+<p>
+Our highest-level Scorpion Athletics
+teams.
+</p>
+
+</div>
+
+
+<div class="team-grid">
+
+
+<div class="team-card level-six">
+
+<span class="team-number">
+16
+</span>
+
+<div class="team-level">
+Level 6 · Senior
+</div>
+
+<div class="team-name">
+Royal
+</div>
+
+<div class="team-division">
+Senior · All-Girl · Level 6
+</div>
+
+<p class="team-description">
+Our elite Senior All-Girl team.
+</p>
+
+</div>
+
+
+<div class="team-card level-six">
+
+<span class="team-number">
+17
+</span>
+
+<div class="team-level">
+Level 6 · Senior
+</div>
+
+<div class="team-name">
+Dominion
+</div>
+
+<div class="team-division">
+Senior · Coed · Level 6
+</div>
+
+<p class="team-description">
+Our elite Senior Coed team.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- TRYOUT BANNER -->
+
+<div class="team-banner">
+
+<h2>
+READY TO JOIN THE PACK?
+</h2>
+
+<p>
+Team placements for the 2026–27 season
+are coming soon.
+</p>
+
+<a href="tryouts.html"
+class="button">
+
+VIEW TRYOUT INFORMATION
+
+</a>
+
+</div>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-logo">
+
+<div class="footer-mark">
+SA
+</div>
+
+<div>
+
+<strong>
+SCORPION ATHLETICS
+</strong>
+
+<p>
+PHOENIX, ARIZONA
+</p>
+
+</div>
+
+</div>
+
+
+<div class="footer-links">
+
+<a href="index.html">
+Home
+</a>
+
+<a href="about.html">
+About
+</a>
+
+<a href="teams.html">
+Teams
+</a>
+
+<a href="calendar.html">
+Calendar
+</a>
+
+<a href="competitions.html">
+Competitions
+</a>
+
+<a href="camps.html">
+Camps
+</a>
+
+<a href="classes.html">
+Classes
+</a>
+
+<a href="rules.html">
+Rules
+</a>
+
+<a href="gallery.html">
+Gallery
+</a>
+
+<a href="contact.html">
+Contact
+</a>
+
+</div>
+
+
+<p class="copyright">
+
+© 2026 Scorpion Athletics ·
+Strike. Stunt. Conquer.
+
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
