@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Private Gallery | Scorpion Athletics</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="navbar">
+
+<a class="logo" href="index.html">
+
+<div class="logo-mark">SA</div>
+
+<div>
+<strong>SCORPION</strong>
+<span>ATHLETICS</span>
+</div>
+
+</a>
+
+<nav>
+
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="teams.html">Teams</a>
+<a href="calendar.html">Calendar</a>
+<a href="competitions.html">Competitions</a>
+<a href="camps.html">Camps</a>
+<a href="classes.html">Classes</a>
+<a href="rules.html">Rules</a>
+<a class="active" href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+<a class="tryout-button" href="tryouts.html">Tryouts</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<div id="lockedGallery">
+
+<section class="password-screen">
+
+<div class="password-box">
+
+<div class="password-icon">
+✦
+</div>
+
+<div class="section-label">
+PRIVATE GALLERY
+</div>
+
+<h2>The Scorpion Vault</h2>
+
+<p>
+This gallery is reserved for Scorpion
+Athletics families and athletes.
+</p>
+
+<input
+id="galleryPassword"
+type="password"
+placeholder="Enter gallery password"
+>
+
+<button
+class="button"
+onclick="unlockGallery()">
+
+ENTER GALLERY
+
+</button>
+
+<p
+id="passwordError"
+style="display:none;color:#d51d45;margin-top:12px;">
+
+Incorrect password. Please try again.
+
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+
+<div id="galleryContent" style="display:none;">
+
+
+<section class="page-hero">
+
+<div class="section-label">
+PRIVATE FAMILY GALLERY
+</div>
+
+<h1>
+SCORPION <span>MEMORIES.</span>
+</h1>
+
+<p>
+Competition weekends, team photos,
+camp days, and everything in between.
+</p>
+
+</section>
+
+
+<section>
+
+<div class="gallery-intro">
+
+<div class="section-label">
+TEAM GALLERIES
+</div>
+
+<h2 class="section-title">
+FIND YOUR TEAM.
+</h2>
+
+<p class="lead">
+Each team has its own collection of
+photos from practices, competitions,
+team events, and season memories.
+</p>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Sweethearts</h2>
+<p>Tiny Novice · The beginning of their Scorpion journey.</p>
+
+<div class="gallery-grid">
+<div class="photo">SWEETHEARTS<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Stingers</h2>
+<p>Mini Prep · Building confidence one skill at a time.</p>
+
+<div class="gallery-grid">
+<div class="photo">STINGERS<br>TEAM PHOTO</div>
+<div class="photo">TEAM DAY<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Level 1</h2>
+<p>Crimson · Ember · Inferno</p>
+
+<div class="gallery-grid">
+<div class="photo">LEVEL 1<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Level 2</h2>
+<p>Sting · Strike · Fury</p>
+
+<div class="gallery-grid">
+<div class="photo">LEVEL 2<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Level 3</h2>
+<p>Reign · Vengeance</p>
+
+<div class="gallery-grid">
+<div class="photo">LEVEL 3<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Level 4</h2>
+<p>Havoc · Riot</p>
+
+<div class="gallery-grid">
+<div class="photo">LEVEL 4<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Level 5</h2>
+<p>Toxic · Poison</p>
+
+<div class="gallery-grid">
+<div class="photo">LEVEL 5<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">COMPETITION<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Level 6</h2>
+<p>Royal · Dominion</p>
+
+<div class="gallery-grid">
+<div class="photo">LEVEL 6<br>TEAM PHOTO</div>
+<div class="photo">PRACTICE<br>ADD IMAGE</div>
+<div class="photo">CHAMPIONSHIP<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+<div class="gallery-section">
+
+<h2>Scorpion Showdown</h2>
+
+<p>
+Behind-the-scenes memories from
+our home competition weekend.
+</p>
+
+<div class="gallery-grid">
+<div class="photo">THE DEN<br>ADD IMAGE</div>
+<div class="photo">COMPETITION FLOOR<br>ADD IMAGE</div>
+<div class="photo">AWARDS<br>ADD IMAGE</div>
+</div>
+
+</div>
+
+
+</section>
+
+</div>
+
+
+<footer>
+
+<div class="footer-logo">
+
+<div class="footer-mark">SA</div>
+
+<div>
+<strong>SCORPION ATHLETICS</strong>
+<p>PHOENIX, ARIZONA</p>
+</div>
+
+</div>
+
+<div class="footer-links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="teams.html">Teams</a>
+<a href="calendar.html">Calendar</a>
+<a href="competitions.html">Competitions</a>
+<a href="camps.html">Camps</a>
+<a href="classes.html">Classes</a>
+<a href="rules.html">Rules</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<p class="copyright">
+© 2026 Scorpion Athletics
+</p>
+
+</footer>
+
+
+<script>
+
+function unlockGallery() {
+
+    const password =
+        document.getElementById("galleryPassword").value;
+
+    /*
+    DEMO PASSWORD
+    Change this word whenever you want.
+    */
+
+    if (password === "scorpion2026") {
+
+        document.getElementById("lockedGallery").style.display = "none";
+
+        document.getElementById("galleryContent").style.display = "block";
+
+        window.scrollTo(0,0);
+
+    } else {
+
+        document.getElementById("passwordError").style.display = "block";
+
+    }
+
+}
+
+document
+.getElementById("galleryPassword")
+.addEventListener("keydown", function(event) {
+
+    if (event.key === "Enter") {
+        unlockGallery();
+    }
+
+});
+
+</script>
+
+</body>
+</html>
